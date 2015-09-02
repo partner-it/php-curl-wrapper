@@ -1,0 +1,21 @@
+{
+  "name": "partner-it/php-curl-wrapper",
+  "license": "MIT",
+  "description": "php curl wrapper",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PartnerIT\\Curl\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PartnerIT\\Curl\\Test\\": "tests"
+    }
+  }
+}
